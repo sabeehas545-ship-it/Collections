@@ -34,6 +34,8 @@ public class EmployeeTestCase {
             System.out.println(employee);
         }
 
+        System.out.println("Employee details of Varun: " +empList.get(2));
+
         Map<Integer, Employee> employeeMap = new HashMap<>();
 
         System.out.println("Employees in Map:");
