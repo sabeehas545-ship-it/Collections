@@ -41,7 +41,7 @@ public class EmployeeTestCase {
 
             employeeMap.put(employee.getEmpId(), employee.getEmpName());
 
-            System.out.println(employeeMap);
         }
+        System.out.println(employeeMap);
     }
 }
