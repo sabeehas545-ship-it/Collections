@@ -1,7 +1,9 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class EmployeeTestCase {
 
@@ -21,17 +23,25 @@ public class EmployeeTestCase {
 
         List<Employee> empList = new ArrayList<>();
 
-       empList.add(emp1);
-       empList.add(emp2);
-       empList.add(emp3);
+        empList.add(emp1);
+        empList.add(emp2);
+        empList.add(emp3);
 
-       System.out.println("List of Employees:");
+        System.out.println("List of Employees:");
 
-       for (Employee employee : empList){
+        for (Employee employee : empList) {
 
-           System.out.println(employee);
-       }
+            System.out.println(employee);
+        }
 
+        Map<Integer, Employee> employeeMap = new HashMap<>();
 
+        System.out.println("Employees in Map:");
+        for (Employee employees : empList) {
+
+            employeeMap.put(employees.getEmpId(), employees);
+
+            System.out.println(employeeMap);
+        }
     }
 }
