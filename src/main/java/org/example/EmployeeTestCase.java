@@ -37,9 +37,9 @@ public class EmployeeTestCase {
         Map<Integer, Employee> employeeMap = new HashMap<>();
 
         System.out.println("Employees in Map:");
-        for (Employee employees : empList) {
+        for (Employee employee : empList) {
 
-            employeeMap.put(employees.getEmpId(), employees);
+            employeeMap.put(employee.getEmpId(), employee.getEmpName());
 
             System.out.println(employeeMap);
         }
