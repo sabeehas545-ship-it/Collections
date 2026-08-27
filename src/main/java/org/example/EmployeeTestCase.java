@@ -39,7 +39,7 @@ public class EmployeeTestCase {
         System.out.println("Employees in Map:");
         for (Employee employee : empList) {
 
-            employeeMap.put(employee.getEmpId(), employee.getEmpName());
+            employeeMap.put(employee.getEmpId(), employee);
 
         }
         System.out.println(employeeMap);
