@@ -43,5 +43,7 @@ public class EmployeeTestCase {
 
         }
         System.out.println(employeeMap);
+
+        employeeMap.get(103);
     }
 }
