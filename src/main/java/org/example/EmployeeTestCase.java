@@ -44,6 +44,6 @@ public class EmployeeTestCase {
         }
         System.out.println(employeeMap);
 
-        employeeMap.get(103);
+        System.out.println(employeeMap.get(103));
     }
 }
