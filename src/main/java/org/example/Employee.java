@@ -6,6 +6,16 @@ public class Employee {
 
     private String empName;
 
+    private String empCity;
+
+    public String getEmpCity() {
+        return empCity;
+    }
+
+    public void setEmpCity(String empCity) {
+        this.empCity = empCity;
+    }
+
     public Integer getEmpId() {
         return empId;
     }
@@ -27,6 +37,8 @@ public class Employee {
         return "Employee{" +
                 "empId=" + empId +
                 ", empName='" + empName + '\'' +
+                ", empCity='" + empCity + '\'' +
                 '}';
     }
+
 }
