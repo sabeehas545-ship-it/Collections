@@ -7,7 +7,9 @@ public class Factorial {
         int factorial = 1;
 
         for (int i = 1; i <= number; i++) {
-            factorial *= i;
+
+            factorial *= i;  // 5! = 5*4*3*2*1 = 120
+                            //factorial = factorial * i
         }
 
         System.out.println(factorial);
